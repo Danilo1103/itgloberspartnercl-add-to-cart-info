@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.container {
+    width: 500px;
+}
+
+.container__item {
+    margin: auto
+}
+
+.container__itemTwo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__itemTwo:hover .image__imageProduct {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.text__nameProduct,
+.text__textProduct {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #000;
+    font-size: 18px;
+}
+
+.text__nameProduct {
+    text-align: center;
+}
+
+.image__imageProduct {
+    display: block;
+    margin: auto;
+    min-width: 150px;
+    min-height: 110px;
+}
+
+.text__textProduct {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.line__separatorProducts {
+    width: -webkit-fill-available;
+}
