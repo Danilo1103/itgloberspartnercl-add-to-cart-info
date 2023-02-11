@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 .container {
-    width: 500px;
+    width: 400px;
 }
 
 .container__item {
@@ -19,7 +19,8 @@
 }
 
 .text__nameProduct,
-.text__textProduct {
+.text__textProduct,
+.text__totalProducts {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     color: #000;
@@ -44,4 +45,55 @@
 
 .line__separatorProducts {
     width: -webkit-fill-available;
+}
+
+.text__totalProducts {
+    text-decoration: underline;
+}
+
+.container__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__buttonCheckout,
+.container__buttonCart {
+    margin-bottom: 20px;
+}
+
+.container__buttonCheckout a {
+    text-decoration: underline;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.container__buttonCart button {
+    background: #000;
+    color: #fff;
+    width: 150px;
+    height: 35px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.container__buttonCart button:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media only screen and (max-width: 430px) {
+    .container {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .container {
+        width: 100%;
+    }
+
+    .text__totalProducts {
+        text-align: center;
+    }
 }

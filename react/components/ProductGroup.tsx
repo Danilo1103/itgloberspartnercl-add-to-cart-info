@@ -12,7 +12,6 @@ const ProductGroup = ({ items }: any, { blockClass }: { blockClass: string }) =>
     return (
         <div>
             {items.map((item: any, index: number) => {
-                console.log("DANILOOOOO: ", item)
                 return (
                     <div key={index} className={container__itemTwo}>
                         <div>
