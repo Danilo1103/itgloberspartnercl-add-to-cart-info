@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 .container {
-    width: 500px;
+    width: 400px;
 }
 
 .container__item {
@@ -80,4 +80,20 @@
 
 .container__buttonCart button:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media only screen and (max-width: 430px) {
+    .container {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .container {
+        width: 100%;
+    }
+
+    .text__totalProducts {
+        text-align: center;
+    }
 }
