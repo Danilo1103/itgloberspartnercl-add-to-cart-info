@@ -9,13 +9,9 @@
 }
 
 .container__itemTwo {
-    display: flex;
-    align-items: center;
+    display       : flex;
+    align-items   : center;
     flex-direction: column;
-}
-
-.container__itemTwo:hover .image__imageProduct {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .text__nameProduct,
@@ -23,8 +19,8 @@
 .text__totalProducts {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
-    color: #000;
-    font-size: 18px;
+    color      : #000;
+    font-size  : 18px;
 }
 
 .text__nameProduct {
@@ -32,15 +28,15 @@
 }
 
 .image__imageProduct {
-    display: block;
-    margin: auto;
-    min-width: 150px;
+    display   : block;
+    margin    : auto;
+    min-width : 150px;
     min-height: 110px;
 }
 
 .text__textProduct {
     font-weight: 700;
-    font-size: 15px;
+    font-size  : 15px;
 }
 
 .line__separatorProducts {
@@ -52,30 +48,23 @@
 }
 
 .container__buttons {
-    display: flex;
+    display       : flex;
     flex-direction: column;
-    align-items: center;
+    align-items   : center;
 }
 
-.container__buttonCheckout,
+
 .container__buttonCart {
     margin-bottom: 20px;
 }
 
-.container__buttonCheckout a {
-    text-decoration: underline;
-    color: #000;
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-}
-
 .container__buttonCart button {
-    background: #000;
-    color: #fff;
-    width: 150px;
-    height: 35px;
-    border: 1px solid #000;
-    cursor: pointer;
+    background: transparent;
+    color     : #000;
+    width     : 150px;
+    height    : 35px;
+    border    : 1px solid #000;
+    cursor    : pointer;
 }
 
 .container__buttonCart button:hover {
