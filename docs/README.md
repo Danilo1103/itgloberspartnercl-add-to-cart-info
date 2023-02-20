@@ -9,7 +9,7 @@ Component that will display information when adding a product to the shopping ca
 
 ## Configuration 
 
-1. Import the Bullet add-to-cart-info's app to your theme's dependencies in the manifest.json, for example:
+1. Import the add-to-cart-info's app to your theme's dependencies in the manifest.json, for example:
 ```json
   "dependencies": {
     "vendor.add-to-cart-info": "0.x"
@@ -19,7 +19,6 @@ Component that will display information when adding a product to the shopping ca
  2. Add the add-to-cart-info block to the store-theme. For example:
 ```json
   "modal-trigger#global__addToCartInfo": {
-        "title": "Trigger Add To Cart",
         "children": [
             "modal-layout#global__addToCartInfo"
         ],
